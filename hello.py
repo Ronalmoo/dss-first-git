@@ -1,2 +1,3 @@
 for i in range(1, 11):
-    print("Hello Python")
+    if i % 2 == 0:
+        print("{}: Hello Python".format(i))
